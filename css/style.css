@@ -426,10 +426,9 @@ a {
 
 .footer-container {
     height: 80px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
-
 }
 
 .copyright {
@@ -444,8 +443,7 @@ a {
 
 .footer-logo {
     padding-right: 15px;
-    display: flex;
-    align-items: center;
+    justify-self: end;
 }
 
 .footer-img1 {
