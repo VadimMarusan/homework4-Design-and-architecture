@@ -444,6 +444,16 @@ a {
 
 .footer-logo {
     padding-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-img1 {
+    margin-bottom: 7px;
+}
+
+.footer-img2 {
+    padding-right: 3px;
 }
 
 
